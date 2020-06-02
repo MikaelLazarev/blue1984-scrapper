@@ -41,4 +41,4 @@ def profile(account=None):
     return jsonify({"profile": tw_profile.to_dict(), "tweets": result})
 
 
-#app.run(port=os.getenv('PORT', 5000))
+app.run(port=os.getenv('PORT', 5000))
