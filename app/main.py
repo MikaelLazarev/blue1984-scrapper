@@ -52,7 +52,7 @@ def timeline(account=None):
 
     for tweet in get_tweets(account, pages=3):
         result.append({
-            'id': tweet['tweeId'],
+            'id': tweet['tweetId'],
             'screenName': tweet['username'],
             'text': tweet['text'],
             'time': tweet['time'],
