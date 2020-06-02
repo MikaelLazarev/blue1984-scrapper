@@ -47,11 +47,11 @@ def timeline(account=None):
         response = jsonify({'error': 'Incorrect id'})
         response.status_code = 403
         return response
-        
+
     result = []
 
-    for tweet in get_tweets(account, pages=5):
-        result.append(tweet['text'])
+    for tweet in get_tweets(account, pages=3):
+        result.append(tweet)
     return jsonify(result)
 
 
