@@ -51,7 +51,18 @@ def timeline(account=None):
     result = []
 
     for tweet in get_tweets(account, pages=3):
-        result.append(tweet)
+        result.append({
+            'id': tweet['tweeId'],
+            'screenName': tweet['username'],
+            'text': tweet['text'],
+            'time': tweet['time'],
+            'urls': tweet['entries']['urls'],
+            'hashtags': tweet['entries']['hashtags'],
+            'images': tweet['entries']['photos'],
+            'favoriteCount': tweet['likes'],
+            'replyCount': tweet['replies'],
+            'retweetCount': tweet['retweets'],
+            })
     return jsonify(result)
 
 
