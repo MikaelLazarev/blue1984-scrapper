@@ -26,7 +26,7 @@ Python microservice for twitter scrapping: https://github.com/MikaelLazarev/blue
 
 4. Install dependecies: ```pip3 install -r requirements.txt```
 
-5. Setup SECRET phrase bys setting SECRET enviroment variable: ```SECRET=<YOUR SECRET>```
+5. Setup SECRET phrase up as enviroment variable: ```export SECRET=<YOUR SECRET>```
 
 6. Run service with ```gunicorn wsgi:app```
 
