@@ -30,7 +30,7 @@ def profile(account=None):
         response.status_code = 403
         return response
 
-    app.logger.info('Getting profile for ' + account)
+    print('Getting profile for ' + account)
 
     try:
         tw_profile = Profile(account)
@@ -85,7 +85,7 @@ def timeline(account=None):
             'retweetCount': tweet['retweets'],
             })
 
-    app.logger.info('Got result for ' + account + '\n' + result);
+    app.logger.info('Got ' + str(len(result)) + ' results for ' + account + '\n')
     return jsonify(result)
 
 
