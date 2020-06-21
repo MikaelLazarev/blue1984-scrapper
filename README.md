@@ -10,11 +10,15 @@ Official site: https://blue1984.herokuapp.com/
 
 Video demo: https://youtu.be/O3uLL3kWXAY
 
-Backend: https://github.com/MikaelLazarev/blu1984
+## Project repostories
 
-Front-end: https://github.com/MikaelLazarev/blue1984
+Server: https://github.com/MikaelLazarev/blu1984 (core repository)
 
-Python microservice for twitter scrapping: https://github.com/MikaelLazarev/blue1984-ts
+Mobile apps: https://github.com/MikaelLazarev/blue1984-mobile
+
+Front-end: https://github.com/MikaelLazarev/blue1984-web
+
+Twitter scrapper microservice: https://github.com/MikaelLazarev/blue1984-scrapper
 
 ## How to install
 
