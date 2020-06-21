@@ -1,6 +1,5 @@
-# Blue1984
+# Blue1984: Scrapper microservice
 ### Twitter without censorship
-### Python microservice for twitter scrapping
 
 ![1984v2 008](https://user-images.githubusercontent.com/26343374/83402867-3f7fe600-a410-11ea-9b57-af6149521fff.jpeg)
 
